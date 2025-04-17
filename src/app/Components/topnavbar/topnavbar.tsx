@@ -10,21 +10,21 @@ interface TopNavbarProps {
 
 const TopNavbar: React.FC<TopNavbarProps> = ({ toggleSidebar }) => {
   return (
-    <nav className="flex items-center justify-between bg-yellow-500 px-4 py-3">
-      <div className="flex items-center space-x-4">
+    <nav className="flex items-center justify-between w-full bg-gray-300 px-4 py-3">
+      <div className="flex items-center gap-4">
         {/* Toggle Menu Icon for Smaller Devices */}
         <button
-          className="text-2xl focus:outline-none text-slate-500 block md:hidden transition-all duration-300"
+          className="text-2xl focus:outline-none text-slate-500 block transition-all duration-300 md:hidden"
           onClick={toggleSidebar}
           aria-label="Toggle Sidebar"
         >
           ☰
         </button>
-        <div className="text-lg font-bold"><Image src={WURA} alt="WURA Logo" className="h-10" />
+        <div className="text-lg font-bold"><Image src={WURA} alt="WURA Logo" className="h-10 w-auto" />
         </div>
       </div>
       {/* Login Button (Hidden on Smaller Devices) */}
-   {/* Icons on the right */}
+      {/* Icons on the right */}
       <div className="flex items-center gap-5">
         {/* Mail Icon */}
         <Mail className="w-4 h-4 text-slate-700 hover:text-gray-500 cursor-pointer" />
@@ -40,7 +40,8 @@ const TopNavbar: React.FC<TopNavbarProps> = ({ toggleSidebar }) => {
           <LogOut className="w-4 h-4" />
           <span className="text-sm">Logout</span>
         </Link>
-      </div>    </nav>
+      </div>    
+    </nav>
   );
 };
 

@@ -14,19 +14,19 @@ const MainLayout = ({ children }: LayoutProps) => {
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
-  
+
   return (
     <div className="flex flex-col h-screen">
       <div className="flex flex-1 overflow-hidden">
-        <SideNavbar 
-          isSidebarOpen={isSidebarOpen} 
-          toggleSidebar={toggleSidebar} 
+        <SideNavbar
+          isSidebarOpen={isSidebarOpen}
+          toggleSidebar={toggleSidebar}
         />
 
         <div className="flex flex-col flex-1 overflow-hidden">
-     
-          <TopNavbar 
-            toggleSidebar={toggleSidebar} 
+
+          <TopNavbar
+            toggleSidebar={toggleSidebar}
           />
 
           <main className="p-6 bg-gray-100 overflow-y-auto flex-1">
