@@ -43,7 +43,7 @@ const Transactionworldwide = () => {
                 {item.date}
               </div>
               <div className="col-span-2 p-2 text-sm flex justify-center">
-                <span className="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-xs font-medium">
+                <span className="bg-emerald-100 text-emerald-800 px-3 py-1 text-xs font-medium flex items-center">
                   {item.amount}
                 </span>
               </div>
