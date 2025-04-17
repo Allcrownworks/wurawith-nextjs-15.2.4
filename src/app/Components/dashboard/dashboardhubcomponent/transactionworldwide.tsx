@@ -161,7 +161,11 @@ const Transactionworldwide: React.FC = () => {
           </div>
         </div>
         {/* second grid by the right */}
+<<<<<<< HEAD
         <div className=""><Map /></div> 
+=======
+        <div className=""><Map /></div>
+>>>>>>> 770c6895134a1e50df875cd57b9e66f9742f2fca
       </div>
     </div>
   );
