@@ -79,7 +79,7 @@ const DashboardHub = () => {
                   <hr className="border-gray-300" />
                 </span>
                 {/* message toggle*/}
-                <div className={`${!toggle ? "hidden" : "block md:absolute"}`}>
+                <div className={`${!toggle ? "hidden" : "block"}`}>
                   <div className=" bg-red-100 p-2 ">
                     <div className="p-4 flex gap-4 place-items-center">
                       <span>

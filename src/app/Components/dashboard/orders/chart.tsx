@@ -447,16 +447,7 @@ export default function DataChart() {
       <div className="h-[300px] relative">
         <canvas ref={chartRef}></canvas>
       </div>
-      <div className="flex items-center justify-start gap-6 mt-4">
-        <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded-full bg-[#7fe0ed]"></div>
-          <span className="text-sm text-gray-700">Number of orders</span>
-        </div>
-        <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded-full bg-[#007bff]"></div>
-          <span className="text-sm text-gray-700">Payments</span>
-        </div>
-      </div>
+    
     </div>
   )
 }
