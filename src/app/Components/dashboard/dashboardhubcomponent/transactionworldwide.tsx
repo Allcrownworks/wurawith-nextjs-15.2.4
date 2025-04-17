@@ -1,6 +1,6 @@
 "use client"
 // import React, { useState } from "react";
-// import Map from"./map"
+import Map from"./map"
 
 // import { TbCornerRightUp } from "react-icons/tb";
 
@@ -161,7 +161,7 @@ const Transactionworldwide: React.FC = () => {
           </div>
         </div>
         {/* second grid by the right */}
-        {/* <div className=""><Map /></div> */}
+        <div className=""><Map /></div>
       </div>
     </div>
   );
