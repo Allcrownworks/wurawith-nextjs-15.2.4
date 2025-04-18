@@ -535,6 +535,7 @@ export default function DataChart() {
   }
 
   // Custom tooltip component
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (active && payload && payload.length) {
       return (
@@ -712,6 +713,7 @@ export default function DataChart() {
               fillOpacity={0.8}
               // Apply highlighting
               isAnimationActive={false}
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
               shape={(props: any) => {
                 const { x, y, width, height, index } = props
                 const isHighlighted = data[index + Math.floor(zoomDomain.x[0])]?.highlighted
@@ -741,6 +743,7 @@ export default function DataChart() {
               // Apply highlighting
               isAnimationActive={false}
               activeDot={{ r: 6 }}
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
               dot={(props: any) => {
                 const { cx, cy, index } = props
                 const isHighlighted = data[index + Math.floor(zoomDomain.x[0])]?.highlighted
