@@ -1,5 +1,6 @@
 "use client";
 import { useState, useRef } from "react";
+// @ts-ignore
 import {
   ComposableMap,
   Geographies,
