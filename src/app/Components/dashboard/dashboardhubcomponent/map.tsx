@@ -18,7 +18,7 @@ type GeographyProps = {
   properties: {
     name: string;
   };
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+   
   geometry: unknown;
 };
 
@@ -216,7 +216,7 @@ export default function WorldMap() {
 
       {/* Map Container */}
       <div className="overflow-hidden h-[293px] ">
-        {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+        { }
         <div ref={mapRef}>
           <ComposableMap
             projection="geoMercator"
