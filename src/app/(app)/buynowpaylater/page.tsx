@@ -39,7 +39,7 @@ const useTypewriter = (texts: string[], speed: number = 70, delay: number = 5000
   return displayedText;
 };
 
-const Insurance = () => {
+const Buynowpaylater = () => {
   const [isZoomed, setIsZoomed] = useState(false);
   const [isLogoAnimating, setIsLogoAnimating] = useState(false);
   const mainText = useTypewriter([
@@ -90,4 +90,4 @@ const Insurance = () => {
     </main>
   );
 }
-export default Insurance;
+export default Buynowpaylater;
