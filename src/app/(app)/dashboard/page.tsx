@@ -1,4 +1,4 @@
-" use client "
+"use client";
 import DashboardHub from "@/app/Components/dashboard/dashboardhub/dashboardhub";
 import { Orders } from "@/app/Components/dashboard/orders/orders";
 import { Transaction } from "@/app/Components/dashboard/transaction";
