@@ -2,7 +2,7 @@
 import { OrdersProgressBar } from "../orders/ordersprogressbar";
 import Chart from "./chart";
 
-export function Orders() {
+const Orders = () => {
   return (
     <main className="bg-white">
       <div className=" w-full flex-1 mt-8 overflow-x-hidden flex-col flex gap-4 overflow-y-auto rounded-lg">
@@ -40,3 +40,4 @@ export function Orders() {
     </main>
   );
 }
+export default Orders;

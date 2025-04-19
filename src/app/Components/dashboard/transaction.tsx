@@ -3,7 +3,7 @@ import { GoZap } from "react-icons/go";
 import { TbCornerRightDown, TbCornerRightUp } from "react-icons/tb";
 
 
-export function Transaction() {
+const Transaction = () => {
     return (
       <main className="overflow-y-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
@@ -129,6 +129,6 @@ export function Transaction() {
     </main>
     );
   }
-  
+  export default Transaction;
   
   
